@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import Home from './routes/Home'
+import NotFound from './routes/NotFound'
 import ThemeContext from './context/ThemeContext'
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
       <ThemeContext.Provider value={theme}>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </ThemeContext.Provider>
     </BrowserRouter>
