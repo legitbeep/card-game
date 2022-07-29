@@ -1,0 +1,66 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main {
+    position: relative;
+}
+
+.logoContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.logo {
+    height: 6em;
+    padding: 1.5em;
+    will-change: filter;
+}
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    font-size: 3em;
+}
+.card {
+    position: relative;
+    text-align: center;
+    padding: 2em;
+}
+
+.readTheDocs {
+    position: relative;
+    color: #888;
+    text-align: center;
+}
+
+.iconContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    a:nth-of-type(2) .logo {
+        animation: logo-spin infinite 20s linear;
+    }
+}
+
