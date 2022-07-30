@@ -1,7 +1,7 @@
 reac-vite-redux-query-template
 ========
 
-A light-weight starter kit for building React applications.
+A basic starter kit for building React applications.
 
 This project is bootstrapped using [Vite](https://vitejs.dev/guide/).
 
